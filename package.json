@@ -1,0 +1,19 @@
+
+{
+  "name": "react-native-app-upgrade-core",
+  "version": "1.0.0",
+  "description": "React Native硬升级",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "upgrade"
+  ],
+  "author": "DarklyCoder",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.59"
+  }
+}
