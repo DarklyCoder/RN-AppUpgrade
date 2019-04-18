@@ -3,11 +3,11 @@
 
 ## Getting started
 
-`$ npm install react-native-app-upgrade --save`
+`$ npm install react-native-app-upgrade-core --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-app-upgrade`
+`$ react-native link react-native-app-upgrade-core`
 
 ### Manual installation
 
@@ -37,7 +37,7 @@
 
 ## Usage
 ```javascript
-import RNAppUpgrade from 'react-native-app-upgrade';
+import RNAppUpgrade from 'react-native-app-upgrade-core';
 
 // TODO: What to do with the module?
 RNAppUpgrade;

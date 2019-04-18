@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-app-upgrade-core",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "React Native硬升级",
   "main": "index.js",
   "scripts": {
