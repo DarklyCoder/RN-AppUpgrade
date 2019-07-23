@@ -27,6 +27,8 @@ public class RNAppUpgradeModule extends ReactContextBaseJavaModule {
         UpdateConfig.getConfig()
                 .setCheckEntity(new CheckEntity().setUrl("http://test.com"))//防止报错
                 .setCheckWorker(CheckUpdateWorker.class)//自定义更新检查
+                .setUpdateChecker(new UpdateCheckWorker())
+                .setFileChecker(new FileCheckWorker())
                 .setUpdateParser(new UpdateParser() {
                     @Override
                     public Update parse(String response) {
